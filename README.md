@@ -19,3 +19,11 @@ sudo apt-get install libgl1-mesa-dev
 ```
 sudo apt-get install gcc g++
 ```
+
+### Contributing
+
+Feel free to fork this project and customize with your personal info.
+
+### License
+
+MIT
