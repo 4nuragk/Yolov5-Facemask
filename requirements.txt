@@ -29,9 +29,9 @@ pandas
 thop  # FLOPS computation
 pycocotools>=2.0  # COCO mAP
 
-pip install fastapi
-pip install uvicorn[standard]
-pip install aiofiles python-multipart
-pip install opencv-python
-pip install tqdm
-pip install Jinja2
+fastapi
+uvicorn
+aiofiles python-multipart
+opencv-python
+tqdm
+Jinja2
