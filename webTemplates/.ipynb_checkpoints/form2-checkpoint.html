@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Form</title>
+</head>
+<body>
+<form method="post">
+    <input type="number" name="num" value="{{ num }}"/>
+    <input type="submit">
+</form>
+<p>Result: {{ result }}</p>
+<p>Result: {{ prediction }}</p>
+
+
+
+<form enctype="multipart/form-data" method="post">
+<input name="file" type="file" multiple>
+    <input type="number" name="num" value="{{ num }}"/>
+    
+<input type="submit">
+</form>
+</body>
+</html>
